@@ -542,3 +542,9 @@ rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
   Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (27.1ms)
 Started GET "/students" for 73.39.247.58 at 2019-04-28 19:23:55 +0000
 Processing by StudentsController#index as HTML
+  Rendering students/index.html.erb within layouts/application
+  [1m[36mStudent Load (1.0ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  Rendered students/index.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 790ms (Views: 780.8ms | ActiveRecord: 2.3ms)
+
+
